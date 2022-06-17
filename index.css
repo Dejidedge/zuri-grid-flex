@@ -1,0 +1,166 @@
+* {
+  margin: o;
+  padding: o;
+  box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 375px;
+}
+
+@media only screen and (min-width: 1440px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+body {
+  background-color: rgb(242, 243, 243);
+}
+
+main {
+  max-width: 1440px;
+  min-height: 500px;
+  margin: auto; 
+  display: flex;
+  padding: 15% 15% 15% 15%;
+  align-items: center;
+  justify-items: center;
+  flex-direction:row;
+  position: relative;
+}
+
+.box-1 {
+  max-width: 100%;
+  background-color: rgb(252, 166, 6);
+  padding: 25px 50px 50px 50px;
+  box-sizing: 25%;
+  line-height: 35px;
+  
+}
+
+img{
+  width: 60px;
+  height: 40px;
+  margin-top: 13px;
+}
+.box-1 h1 {
+  font-size: 25px;
+  font-family: verdana;
+  color: rgb(236, 234, 234);
+}
+
+.box-1 p {
+  font-size: 15px;
+  font-family: verdana;
+  color: rgb(240, 234, 234);
+}
+
+.box-1 button {
+  width: 70%;
+  height: 4em;
+  border-radius: 20px;
+  border-color: rgb(245, 239, 239);
+  font-size: 12px;
+  font-family: arial;
+  background-color: rgb(247, 243, 241);
+  margin-top: 30px;
+  padding: 1px 5px 5px 1px;
+  font-weight: bold;
+  color: rgb(247, 145, 11);
+}
+
+.box-2 {
+  max-width: 100%;
+  background-color: rgb(3, 97, 114);
+  padding: 25px 50px 50px 50px;
+  box-sizing: 25%;
+  font-size: 10px;
+  line-height: 35px;
+  
+}
+
+img{
+  width: 60px;
+  height: 40px;
+  margin-top: 13px;
+}
+
+.box-2 p {
+  font-size: 15px;
+  font-family: verdana;
+  color: rgb(232, 243, 238);
+}
+
+.box-2 h1 {
+  font-size: 25px;
+  font-family: verdana;
+  color: rgb(240, 234, 234);
+}
+
+.box-2 button {
+  width: 70%;
+  height: 4em;
+  border-radius: 20px;
+  border-color: rgb(245, 239, 239);
+  font-size: 12px;
+  font-family: arial;
+  background-color: rgb(247, 243, 241);
+  margin-top: 30px;
+  padding: 1px 5px 5px 1px;
+  font-weight: bold;
+  color: rgb(9, 67, 90)
+}
+
+.box-3 {
+  max-width: 100%;
+  background-color: rgb(3, 63, 75);
+  padding: 25px 50px 50px 50px;
+  box-sizing: 25%;  
+  font-size: 10px;
+  line-height: 35px;
+  
+}
+
+img{
+  width: 60px;
+  height: 40px;
+  margin-top: 13px;
+}
+
+.box-3 h1 {
+  font-size: 25px;
+  font-family: verdana;
+  color: rgb(240, 234, 234);
+}
+
+.box-3 p {
+  font-size: 15px;
+  font-family: verdana;
+  color: rgb(236, 243, 230);
+}
+
+.box-3 button {
+  width: 70%;
+  height: 4em;
+  border-radius: 20px;
+  border-color: rgb(245, 239, 239);
+  font-size: 12px;
+  font-family: arial;
+  background-color: rgb(247, 243, 241);
+  margin-top: 30px;
+  padding: 1px 5px 5px 1px;
+  font-weight: bold;
+  color: rgb(3, 46, 63);
+}
